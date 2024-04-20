@@ -15,11 +15,7 @@ const Index = () => {
   <Featured/>
   <TrustedBy/>
   <ServicesSlider/>
-  <BestPart/>
-  <Career/>
-  <FiverrBusiness/>
-  <ProjectsSlider/>
-  <JoinFiver/>
+
 
 
   </div>

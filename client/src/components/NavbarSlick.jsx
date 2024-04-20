@@ -48,7 +48,6 @@ const SecondNavBar = [
   "Programming & Tech",
   "Photography",
   "Business",
-  "AI Services",
 ];
 export default function NavbarSlick() {
   const location = useLocation();

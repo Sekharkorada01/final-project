@@ -62,7 +62,7 @@ const CheckoutForm = () => {
       elements,
       confirmParams: {
         // Make sure to change this to your payment completion page
-        return_url: `https://kizerr.pages.dev/success/${id}`,
+        return_url: `https://Freelance.pages.dev/success/${id}`,
       },
     });
 

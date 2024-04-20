@@ -36,9 +36,9 @@ const About = [
 const Support = [
   "Help & Support",
   "Trust & Safety",
-  "Selling on Kizerr",
-  "Buying on Kizerr",
-  "Kizerr Guides",
+  "Selling on Freelance",
+  "Buying on Freelance",
+  "Freelance Guides",
 ];
 const Community = [
   "Community",
@@ -55,16 +55,16 @@ const Community = [
   "Community Standards",
 ];
 
-const More_From_Kizerr = [
-  "Kizerr Enterprise",
-  "Kizerr Business",
-  "Kizerr Pro",
-  "Kizerr Logo Maker",
+const More_From_Freelance = [
+  "Freelance Enterprise",
+  "Freelance Business",
+  "Freelance Pro",
+  "Freelance Logo Maker",
   "Get Inspired",
-  "Kizerr Select",
+  "Freelance Select",
   "ClearVoice",
   "Content Marketing",
-  "Kizerr Workspace",
+  "Freelance Workspace",
   "Invoice Software",
   "Learn",
   "Online Courses",
@@ -77,90 +77,19 @@ const Footer = () => {
     <div className={`${location.pathname === ('/message/' + id) && "hidden"}  `}>
       <hr className=" border-gray-300 sm:hidden" />
       <div className="px-[4%] pt-[2%]">
-        <div className="grid grid-cols-5 md:grid-cols-3 sm:hidden gap-[20px]">
-          <div>
-            <h1 className="text-[#383838] font-bold text-[20px]">Categories</h1>
-            <ul className="mt-[20px]">
-              {Categories?.map((item, index) => (
-                <li
-                  key={index}
-                  className="text-[#514f4f] text-[15px] mb-[10px] hover:text-[#1dbf73] cursor-pointer"
-                >
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        
       
-          <div>
-            <h1 className="text-[#514f4f] font-bold text-[20px]">Community</h1>
-            <ul className="mt-[20px]">
-              {Community?.map((item, index) => (
-                <li
-                  key={index}
-                  className="text-[#514f4f] text-[15px] mb-[10px] hover:text-[#1dbf73] cursor-pointer"
-                >
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h1 className="text-[#514f4f] font-bold text-[20px]">
-              More From Kizerr
-            </h1>
-            <ul className="mt-[20px]">
-              {More_From_Kizerr?.map((item, index) => (
-                <li
-                  key={index}
-                  className="text-[#514f4f] text-[15px] mb-[10px] hover:text-[#1dbf73] cursor-pointer"
-                >
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <h1 className="text-[#514f4f] font-bold text-[20px]">Support</h1>
-            <ul className="mt-[20px]">
-              {Support?.map((item, index) => (
-                <li
-                  key={index}
-                  className="text-[#514f4f] text-[15px] mb-[10px] hover:text-[#1dbf73] cursor-pointer"
-                >
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <h1 className="text-[#514f4f] font-bold text-[20px]">About</h1>
-            <ul className="mt-[20px]">
-              {About?.map((item, index) => (
-                <li
-                  key={index}
-                  className="text-[#514f4f] text-[15px] mb-[10px]   hover:text-[#1dbf73] cursor-pointer"
-                >
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
         <hr className=" border-gray-300 mt-[10px]" />
 
         
         <div className="py-[10px] flex justify-between sm-md:flex-col  ">
           <div className="flex gap-10 items-center">
             <div className="flex items-end">
-              <h1 className="Kizerr text-[#555] font-extrabold tracking-[-3px]	 text-[40px]">
-                kizerr
+              <h1 className="FreelanceWorkplace text-[#555] font-extrabold tracking-[-3px]	 text-[40px]">
+                FreelanceWorkplace
               </h1>
               <p className="text-[#555] pl-[10px] pb-[6px]">&reg;</p>
             </div>
-            <p className=" text-[#939191] sm-md:text-[13px]">© Kizerr International Ltd. 2023</p>
+            <p className=" text-[#939191] sm-md:text-[13px]">© Avanthi Institution Ltd. 2023</p>
           </div>
           <div className=" flex gap-[100px] ">
             <div className="flex items-center sm-md:mt-[10px] sm-md:mx-auto   ">

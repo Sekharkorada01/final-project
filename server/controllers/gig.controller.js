@@ -7,6 +7,7 @@ export const createGig = async (req, res , next) => {
   const newGig = new Gig({
     ...req.body,
     userId : req.userId,
+    username: req.username,
   })
    try{
     const savedGig = await newGig.save();

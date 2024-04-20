@@ -5,7 +5,7 @@ const Loading = () => {
       <h1
         className={`fiverr font-extrabold tracking-[-3px] text-[60px] text-black  `}
       >
-        kizerr
+        FreelanceWorkplace
       </h1>
       <span className="relative flex h-3 w-3 mt-10 justify-center items-center ">
         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[--primaryColor] opacity-75"></span>

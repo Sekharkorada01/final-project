@@ -9,7 +9,7 @@ const GigSchema = new Schema(
     },
     username:{
       type: String,
-      required: true,
+      required: false,
     },
     title: {
       type: String,

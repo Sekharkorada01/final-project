@@ -36,7 +36,7 @@ const HeroBg = [
       "https://fiverr-res.cloudinary.com/image/upload/q_auto,f_auto/v1/attachments/generic_asset/asset/bb5958e41c91bb37f4afe2a318b71599-1599344049970/bg-hero-5-1792-x1.png",
   },
 ];
-const Popular = ["Website Design", "Logo Design", "AI Services"];
+const Popular = ["Website Design", "Logo Design"];
 function Featured() {
   const [search, setsearch] = useState("");
   const [index, setindex] = useState(0);

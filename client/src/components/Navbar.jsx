@@ -58,11 +58,7 @@ const Navbar = () => {
   };
   const FirstNavBar = [
     {
-      title: "Kizerr Business",
-      linkto: "/",
-    },
-    {
-      title: "Kizerr Business",
+      title: "Freelance Business",
       linkto: "/",
     },
     {
@@ -155,7 +151,7 @@ const Navbar = () => {
               location.pathname !== "/" && "!relative !bg-white !text-black"
             }`}
           >
-            kizerr
+            FreelanceWorkplace
           </h1>
           <span className="relative flex h-2 w-2 mt-6">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
