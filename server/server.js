@@ -16,7 +16,7 @@ const port = 3000
 app.use(json())
 app.use(cookieParser())
 const corsOptions ={
-  origin:['http://localhost:5173'], 
+  origin:['http://localhost:5173',"https://final-project-tau-gules.vercel.app"], 
   credentials:true,         
   optionSuccessStatus:200
 }
